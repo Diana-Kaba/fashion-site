@@ -479,3 +479,104 @@ footer p:last-child {
 }
 
 /* ==== FOOTER SECTION STYLES END ==== */
+
+/* ==== MEDIA QUERIES ==== */
+
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 60px;
+    }
+
+    .welcome {
+        width: 100%;
+    }
+
+    .category {
+        flex-direction: column;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+
+    .card {
+        margin-left: 0;
+        margin-bottom: 20px;
+        max-width: 100%;
+    }
+
+    .add-down {
+        height: auto;
+    }
+
+    .content {
+        width: 100%;
+    }
+
+    .content h2 {
+        font-size: 60px;
+    }
+
+    .content button {
+        width: 100%;
+    }
+
+    .left, .right {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    form {
+        flex-direction: column;
+    }
+
+    input[type="text"] {
+        margin-right: 0;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+    }
+
+    .menu {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .menu a {
+        padding: 10px 0;
+    }
+
+    .btns {
+        flex-direction: column;
+    }
+
+    .btns button {
+        margin-right: 0;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    .category {
+        flex-direction: column;
+    }
+
+    .right-img button {
+        width: 100%;
+        right: 0;
+        top: 90%;
+        transform: translateX(0);
+    }
+
+    .add-down {
+        height: auto;
+    }
+
+    .content h2 {
+        font-size: 40px;
+    }
+}
