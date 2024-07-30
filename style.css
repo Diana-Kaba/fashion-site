@@ -1,0 +1,481 @@
+/* ===== GENERAL STYLES ===== */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: #22262A;
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    margin: 0;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 15px;
+}
+
+img, button {
+    user-select: none;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* ===== GENERAL STYLES END ===== */
+
+/* ===== MENU STYLES ===== */
+
+.header-menu {
+    padding: 20px 0;
+    user-select: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    padding: 10px 0;
+    transition: 1s;
+}
+
+.logo:hover, .menu a:hover, .user-panel a:hover {
+    opacity: .5;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 0 15px;
+    color: #22262A;
+    transition: 1s;
+}
+
+.user-panel {
+    display: flex;
+    align-items: center;
+}
+
+.user-panel a {
+    width: 18px;
+    height: 18px;
+    display: flex;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 40px;
+    transition: 1s;
+}
+
+.user-panel a:first-child {
+    margin-left: 0;
+}
+
+.search {
+    background-image: url(./images/search.png);
+}
+
+.favorite {
+    background-image: url(./images/favorite.png);
+}
+
+.basket {
+    background-image: url(./images/basket.png);
+}
+
+/* ===== MENU STYLES END ===== */
+
+/* ===== HEADER STYLES ===== */
+
+header {
+    background-image: url(./images/background.jpg);
+    background-position: 0 85px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 100px;
+}
+
+.welcome {
+    width: 460px;
+}
+
+.welcome span {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.welcome p {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.btns {
+    margin-top: 26px;
+    display: flex;
+    font-weight: 500;
+}
+
+.welcome button {
+    background-color: #22262A;
+    font-size: 18px;
+    color: #fff;
+    border: none;
+    width: 150px;
+    height: 35px;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-right: 35px;
+    line-height: 10px;
+    transition: .5s;
+}
+
+.welcome button:hover {
+    background-color: #fff;
+    color: #22262A;
+}
+
+.main-top {
+    height: 740px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+/* ===== HEADER STYLES END ===== */
+
+/* ===== CATEGORY STYLES END ===== */
+
+main .category {
+    margin-top: 112px;
+    display: flex;
+}
+
+.left-imgs {
+    margin-right: 20px;
+}
+
+.imgs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-img {
+    position: relative;
+}
+
+.right-img img {
+    width: 522px;
+    height: 560px;
+    filter: brightness(50%);
+}
+
+.right-img button {
+    background-color: #fff;
+    font-size: 18px;
+    color: #22262A;
+    border: none;
+    width: 203px;
+    height: 35px;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-right: 35px;
+    line-height: 10px;
+    transition: .5s;
+    position: absolute;
+    right: 50%;
+    top: 85%;
+}
+
+.right-img button:hover {
+    background-color: #22262A;
+    color: #fff;
+}
+
+/* ===== CATEGORY STYLES END ===== */
+
+/* ==== CARD SECTION STYLES ==== */
+
+main p {
+    text-align: center;
+}
+
+main h2 {
+    text-align: center;
+    margin-top: 112px;
+}
+
+.cards {
+    margin-top: 65px;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    margin-left: 22px;
+}
+
+.card p {
+    font-weight: 500;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.card img {
+    width: 268px;
+}
+
+.caption {
+    text-transform: uppercase;
+    margin-top: 38px;
+}
+
+.crossed {
+    text-decoration: line-through;
+}
+
+.red {
+    color: red;
+    margin-left: 18px;
+}
+
+/* ==== CARD SECTION STYLES END ==== */
+
+/* ==== AVONE STYLES ==== */
+
+main .avone {
+    margin-top: 112px;
+}
+
+.avone {
+    position: relative;
+}
+
+.second {
+    max-width: 514px;
+    height: 451px;
+    position: absolute;
+    left: 51%;
+    bottom: 40%;
+}
+
+.third {
+    width: 280px;
+    height: 360px;
+    position: absolute;
+    z-index: 1;
+    left: 80%;
+    top: 50%;
+    border: 30px solid #fff;
+}
+
+.avone-span {
+    text-transform: uppercase;
+    border-bottom: 1px solid #22262A;
+    position: absolute;
+    top: 90%;
+    left: 60%;
+}
+
+/* ==== AVONE STYLES END ==== */
+
+
+/* ==== TACHEN SECTION STYLES ==== */
+
+.tachen {
+    background-image: url(./images/background2.jpg);
+    background-position: 0 85px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 100px;
+}
+
+.add-down {
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.content {
+    width: 426px;
+}
+
+.content h2 {
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 80px;
+    letter-spacing: -1px;
+}
+
+.content span {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.content button {
+    background-color: #22262A;
+    font-size: 18px;
+    color: #fff;
+    border: none;
+    width: 214px;
+    height: 35px;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-right: 35px;
+    line-height: 35px;
+    transition: .5s;
+}
+
+.content button:hover {
+    background-color: #fff;
+    color: #22262A;
+}
+
+/* ==== TACHEN SECTION STYLES END ==== */
+
+/* ==== FOOTER SECTION STYLES ==== */
+
+footer {
+    background-color: #F2F8FC;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 112px;
+    padding-bottom: 106px;
+}
+
+.left {
+    max-width: 406px;
+    height: 290px;
+}
+
+.right {
+    height: 385px;
+    max-width: 532px;
+}
+
+.left p {
+    margin-bottom: 40px;
+}
+
+address {
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: #22262A;
+}
+
+.location {
+    background-image: url(./images/location.png);
+    background-repeat: no-repeat;
+    background-position: 0% 50%;
+    padding-left: 40px;
+    margin-bottom: 16px;
+}
+
+.mail {
+    border-bottom: 1px solid #22262A;
+    width: 250px;
+}
+
+.socials a:first-child {
+    margin-left: 0;
+}
+
+.socials a img {
+    margin-top: 16px;
+    height: 18px;
+}
+
+.socials a {
+    transition: .5s;
+    margin-left: 14px;
+}
+
+.socials a:hover {
+    opacity: .5;
+}
+
+form {
+    display: flex;
+    margin-bottom: 70px;
+}
+
+input {
+    border: none;
+    width: 532px;
+    height: 45px;
+    border-radius: 5px;
+}
+
+form button {
+    border: none;
+    background-color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-right: 24px;
+}
+
+input::placeholder {
+    color: #22262A;
+    padding-left: 24px;
+    font-size: 15px;
+}
+
+.refs {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    padding-left: 0;
+}
+
+li {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+footer p:last-child {
+    background-color: #E7F5F8;
+    height: 93px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+/* ==== FOOTER SECTION STYLES END ==== */
